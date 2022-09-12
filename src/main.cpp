@@ -1,3 +1,8 @@
+/**
+ * I, Noah Tomkins, 0000790079 certify that this material is my original work.
+ * No other person's work has been used without due acknowledgement.
+ */
+
 #include <Arduino.h>
 
 void setup() {
@@ -10,7 +15,7 @@ void setup() {
   Serial.println("\nESP8266 Chip ID: " + String(ESP.getChipId()));
   Serial.println("Flash Chip ID: " + String(ESP.getFlashChipId()));
 
-  Serial.println("\n\n");
+  Serial.println("\n");
 }
 
 void loop() {
